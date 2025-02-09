@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "reworked-ancient-debris",
+	"version": "${version}",
+	"name": "Reworked Ancient Debris",
+	"description": "Reworks Ancient Debris drops",
+	"authors": [
+		"Thomas Darkson"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/reworked-ancient-debris",
+		"sources": "https://github.com/ThomasDarkson/reworked-ancient-debris"
+	},
+	"license": "Apache",
+	"icon": "assets/reworked-ancient-debris/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"reworked.ancient.debris.ReworkedAncientDebris"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
