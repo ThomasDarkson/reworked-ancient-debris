@@ -44,7 +44,6 @@ jar {
 	}
 }
 
-// configure the maven publication
 publishing {
 	publications {
 		create("mavenJava", MavenPublication) {
